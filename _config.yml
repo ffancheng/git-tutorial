@@ -8,8 +8,8 @@ permalink:        pretty
 title:            'OSS w Git & GitHub'
 tagline:          'A tutorial'
 description:      ''
-url:              http://jni.github.io/git-tutorial/
-baseurl:          http://jni.github.io/git-tutorial/
+url:              https://monashdatafluency.github.io/git-tutorial/
+baseurl:          https://monashdatafluency.github.io/git-tutorial/
 
 author:
   name:           'Juan Nunez-Iglesias'
@@ -21,4 +21,4 @@ paginate:         1
 version:          2.0.0
 
 github:
-  repo:           https://github.com/jni/git-tutorial
+  repo:           https://github.com/MonashDataFluency/git-tutorial
