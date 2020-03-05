@@ -10,6 +10,21 @@ To work with this tutorial, you're going to need a few things:
   [git-scm.com](http://git-scm.com). On Linux, you probably already have git,
   or you can install it with `sudo apt-get install git-all` or
   `sudo yum install git`.
+
+  Install Git on Mac OS X:
+  1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/)
+  2. Follow the prompts to install Git.
+  3. Verify intallation by typing `git --version` in terminal. you will see git installed version like this: git version 2.17.1
+ 
+  Install Git on Windows:
+  1. Download the latest [Git for Windows installer](https://git-for-windows.github.io/).
+  2. When you've successfully started the installer, you should see the Git Setup wizard screen. 
+  Follow the Next and Finish prompts to complete the installation. 
+  3. Verify intallation by typing `git --version` in GitBASH/Command Prompt. you will see git installed version like this: git version 2.17.1
+
+
+
+
 - **A graphical git client or browser**. This lets you visualise your git
   history more easily, and understand the concepts behind git better. For a
   full list of clients, see [here](http://git-scm.com/downloads/guis). On Mac,
