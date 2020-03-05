@@ -46,21 +46,21 @@ To work with this tutorial, you're going to need a few things:
   **Intall Git on Linux:**
 
   1. Open terminal and run: `sudo apt install git-all` or `sudo yum install git`.
-  2. Verify intallation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
+  2. Verify installation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
 
 
   **Install Git on Mac OS X:**
 
   1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/)
   2. Follow the prompts to install Git.
-  3. Verify intallation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
+  3. Verify installation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
  
   **Install Git on Windows:**
 
   1. Download the latest [Git for Windows installer](https://git-for-windows.github.io/).
   2. When you've successfully started the installer, you should see the Git Setup wizard screen. 
   Follow the Next and Finish prompts to complete the installation. 
-  3. Verify intallation by typing `git --version` in GitBASH/Command Prompt. you will see installed git version like this: git version 2.17.1
+  3. Verify installation by typing `git --version` in GitBASH/Command Prompt. you will see installed git version like this: git version 2.17.1
 
 
 ## Git configuration
@@ -114,7 +114,8 @@ info.
 You need to keep the window on which you launched the ssh-agent open.
 
 
-**Setup ssh-key**
+## Setup ssh-key
+
 Now our git configuration is completed and we ready to work with git and github. However, each time we make push (upload) 
 files on github, we will have to enter git account password. As we will be uploadng document frequently,
 it is better set up **ssh-key** to avoide authentication every time we make push. Please follow the instruction
