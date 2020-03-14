@@ -7,7 +7,7 @@ title: Installation and setup
 To work with this tutorial, you're going to need a few things:
 
 - **Git**, of course. Install this by going to the git homepage,
-  [git-scm.com](http://git-scm.com) Or see the next section. 
+  [git-scm.com](http://git-scm.com) Or see next section. 
 
 - **A graphical git client or browser**. This lets you visualise your git
   history more easily, and understand the concepts behind git better. For a
@@ -43,7 +43,7 @@ To work with this tutorial, you're going to need a few things:
 
 ## Installing Git
 
-  **Intall Git on Linux:**
+  **Install Git on Linux:**
 
   1. Open terminal and run: `sudo apt install git-all` or `sudo yum install git`.
   2. Verify installation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
