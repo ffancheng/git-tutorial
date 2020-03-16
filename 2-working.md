@@ -14,6 +14,7 @@ In this section, we will get some hands-on experience with the above concepts:
 Throughout, an important message is to *trust* git. Your data is safe. It’s
 very hard to actually lose data/code.
 
+<!---
 ## Configuring git
 
 Your git settings live in a file called `.gitconfig` in your home directory:
@@ -33,6 +34,7 @@ $ git config --global user.email "your.name@your.institute.edu"
 git projects. You can change the setting for specific project, e.g. if you want
 to use a different institute's email address, by using the command without the
 tag inside a specific project.)
+--->
 
 ## Exercise 1: tracking your change history with git
 
