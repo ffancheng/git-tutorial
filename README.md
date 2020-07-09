@@ -7,5 +7,4 @@ Some of these notes are copied or inspired by the Git Novice Software Carpentry
 tutorial ([link](https://swcarpentry.github.io/git-novice/)), used here under
 the [CC-BY-4.0 license](https://swcarpentry.github.io/git-novice/LICENSE.html).
 
-
-# this is for test
+Link to the github page: https://monashdatafluency.github.io/git-tutorial/
