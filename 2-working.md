@@ -654,8 +654,7 @@ $ git commit
 ```
 In this challenge, please try to replicate the merge conflicts exercise first. 
 
-Then you can check that the history of our project using our created alias, `git
-lsd`. (See the set up chapter.)
+Then you can check that the history of our project using our created alias, `git lsd`. (See the set up chapter.)
 Try to read the "graphical" git history and explain what the branching structure means. 
 ```
 
