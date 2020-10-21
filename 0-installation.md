@@ -66,7 +66,9 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "Your.Name@email.com"
 {% endhighlight %}
 
-Note that you need to replace "Your name" with your own information. Please use the same email address you used for your GitHub account.
+DO NOT copy the `$` for the command. 
+Note that you need to replace "Your name" with your own information. 
+Please use the same email address you used for your GitHub account.
 
 
 ## Notes
