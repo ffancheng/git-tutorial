@@ -8,13 +8,6 @@ To work with this tutorial, you're going to need a few things:
 
 - **Git**, of course. Install this by going to the git homepage,
   [git-scm.com](http://git-scm.com) Or see next section. 
-
-- **A graphical git client or browser**. This lets you visualise your git
-  history more easily, and understand the concepts behind git better. For a
-  full list of clients, see [here](http://git-scm.com/downloads/guis). On Mac,
-  I recommend [Git Tower](https://www.git-tower.com), though it's not free. The
-  cross-platform [SourceTree](https://www.sourcetreeapp.com/) is free and
-  available on Windows and Mac. On Linux, try gitg or gitk.
 - **A text editor**. Try [Sublime Text](http://www.sublimetext.com)
   or [Atom](https://atom.io) (both of which are multiplatform). Configure them
   to be your default git editors by following the instructions on
@@ -24,15 +17,15 @@ To work with this tutorial, you're going to need a few things:
   file formats that include text formatting information.
 - **A GitHub account**. Create an account by going to
   [github.com](https://github.com).
-- **SSH keys to access GitHub**. Without these, you will need to type your
-  GitHub password every single time you try to do read from or write to your
-  GitHub account. (Which will be many, many times! ;) Follow the instructions
-  [here](https://help.github.com/articles/generating-ssh-keys/), making sure
-  that you are seeing the instructions for your OS (Mac, Windows, or Linux).
+- **A graphical git client or browser**. This lets you visualise your git
+  history more easily, and understand the concepts behind git better. For a
+  full list of clients, see [here](http://git-scm.com/downloads/guis). On Mac,
+  I recommend [Git Tower](https://www.git-tower.com), though it's not free. The
+  cross-platform [SourceTree](https://www.sourcetreeapp.com/) is free and
+  available on Windows and Mac. On Linux, try gitg or gitk.
 
 
-
-## Create account on Github
+## Create an account on Github
 
 1. Open the [Github link](https://github.com) and sign-up using your email id. 
    If you have student email id, you will get more features, you will be able to 
@@ -41,39 +34,41 @@ To work with this tutorial, you're going to need a few things:
 
 2. Remember your email id and user name; we will be using them while configuring the git intalled in our local machine.
 
-## Installing Git
+## Git installation
 
-  **Install Git on Linux:**
-
-  1. Open terminal and run: `sudo apt install git-all` or `sudo yum install git`.
-  2. Verify installation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
-
-
-  **Install Git on Mac OS X:**
-
-  1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/)
-  2. Follow the prompts to install Git.
-  3. Verify installation by typing `git --version` in terminal. you will see installed git version like this: git version 2.17.1
- 
   **Install Git on Windows:**
 
   1. Download the latest [Git for Windows installer](https://git-for-windows.github.io/).
   2. When you've successfully started the installer, you should see the Git Setup wizard screen. 
   Follow the Next and Finish prompts to complete the installation. 
-  3. Verify installation by typing `git --version` in GitBASH/Command Prompt. you will see installed git version like this: git version 2.17.1
+  3. In your StartUp menu, search for "git bash" and open it. 
+  4. Verify installation by typing `git --version` in the git bash window. You will see installed git version like this: git version 2.17.1
+  
+  **Install Git on Mac OS X:**
 
+  1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/)
+  2. Follow the prompts to install Git.
+  3. Open your terminal. 
+  3. Verify installation by typing `git --version` in terminal. You will see installed git version like this: git version 2.17.1
+  
+  **Install Git on Linux:**
+
+  1. Open terminal and run: `sudo apt install git-all` or `sudo yum install git`.
+  2. Verify installation by typing `git --version` in terminal. You will see installed git version like this: git version 2.17.1
 
 ## Git configuration
 
-you'll want to set up git so that it knows your full name and
-email address. Fire up a console/terminal, and type:
+You also need to configure git so that it knows your full name and email address. 
+Fire up a console/terminal, and type:
 
 {% highlight console %}
 $ git config --global user.name "Your Name"
-$ git config --global user.email "your.name@email.com"
+$ git config --global user.email "Your.Name@email.com"
 {% endhighlight %}
 
-(Use the same email you used for your GitHub account.)
+DO NOT copy the `$` for the command. 
+Note that you need to replace "Your name" with your own information. 
+Please use the same email address you used for your GitHub account.
 
 
 ## Notes

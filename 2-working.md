@@ -177,15 +177,14 @@ followed in the community:
 > should be wrapped at 72 characters. This ensures readability in all
 > text terminals.
 
-### ... back to the exercise
+### Challenge 1: git commit
 
-We shouldn't return 0 on error, because it can be confused with a perfectly
-valid result. Instead, Python provides a handy value for missing or invalid
-data:
-`None`.
+```
+We shouldn't return 0 on error, because it can be confused with a perfectly valid result. 
+Instead, Python provides a handy value for missing or invalid data: `None`.
 
-Edit your file so that, if the operator is not recognised, it returns `None`
-instead of 0.
+Please edit your `calc.py` file so that if the operator is not recognised, it returns `None` instead of 0.
+```
 
 ~~~python
 def compute(expression):
@@ -650,8 +649,15 @@ $ git add calc.py
 $ git commit
 ```
 
-You can check that the history of our project using our created alias, `git
-lsd`. (See the set up chapter.)
+### Challenge 2: merge conflicts and git history
+
+```
+In this challenge, please try to replicate the merge conflicts exercise first. 
+
+Then you can check that the history of our project using our created alias, `git lsd`. (See the set up chapter.)
+Try to read the "graphical" git history and explain what the branching structure means. 
+```
+
 
 ```
  $ git lsd
