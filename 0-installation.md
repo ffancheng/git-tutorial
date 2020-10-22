@@ -70,6 +70,19 @@ DO NOT copy the `$` for the command.
 Note that you need to replace "Your name" with your own information. 
 Please use the same email address you used for your GitHub account.
 
+The following command also lets you see a rudimentary graphic of your history
+without needing a GUI git client:
+
+{% highlight console %}
+$ git config --global alias.lsd "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+{% endhighlight %}
+
+Then you can get a nice history *within your terminal* by typing:
+
+{% highlight console %}
+$ git lsd
+{% endhighlight %}
+
 
 ## Notes
 
@@ -117,20 +130,6 @@ it is better set up **ssh-key** to avoide authentication every time we make push
 [here](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) 
 to create ssh-key and adding it the github account.
 
-
-
-The following command also lets you see a rudimentary graphic of your history
-without needing a GUI git client:
-
-{% highlight console %}
-$ git config --global alias.lsd "log --graph --decorate --pretty=oneline --abbrev-commit --all"
-{% endhighlight %}
-
-Then you can get a nice history *within your terminal* by typing:
-
-{% highlight console %}
-$ git lsd
-{% endhighlight %}
 
 ---
 
