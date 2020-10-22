@@ -142,28 +142,33 @@ $ git commit -m "Allow num0 to be any decimal number"
 $ git push origin --set-upstream decimals
 ```
 
-Go to the GitHub page for the project. You should see a new button
-showing that you've recently updated a branch and prompting you to
-*initiate a pull request*. (You can also copy the "new pull request" address
-from git's message when you push.)
+### Challenge 3: Github PR
 
-Here's how this works: you don't know Alice. You probably have never met
-her. So it's natural that you can't just push random stuff willy-nilly to her
-repository. However, you do have a *shared history*, because you *forked* hers,
-and *she* has access to your new changes. So, instead of *pushing* your
-changes, you ask *her* to *pull* from your own history.
+```
+Go to the GitHub page for the project. You should see a new button showing that 
+you've recently updated a branch and prompting you to *initiate a pull request*. 
+(You can also copy the "new pull request" address from git's message when you push.)
 
-The PR will tell Alice that you've made some
-changes to the code and you would like her to incorporate them into
-her project. Notice that you did this *without needing any special
-access from Alice!* This is the magic of GitHub and open source.
+Click on the PR button and fill in the form. 
+Filling in a useful title and message here is very important!
+```
+
+Here's how this works: you don't know Alice. You probably have never met her. 
+So it's natural that you can't just push random stuff willy-nilly to her repository. 
+However, you do have a *shared history*, because you *forked* hers, and *she* has 
+access to your new changes. 
+So, instead of *pushing* your changes, you ask *her* to *pull* from your own history.
+
+The PR will tell Alice that you've made some changes to the code and 
+you would like her to incorporate them into her project. 
+Notice that you did this *without needing any special access from Alice!* 
+This is the magic of GitHub and open source.
 
 Check out the impact that GitHub has had on a few open source Python projects:
 
 ![GitHub's impact on FOSS](/git-tutorial/images/gh.png)
 
-Click on the PR button and fill in the form. Filling in a useful
-title and message here is very important!
+
 
 > ### Pull request etiquette
 > 
