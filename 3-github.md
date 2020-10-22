@@ -145,9 +145,11 @@ $ git push origin --set-upstream decimals
 ### Challenge 3: Github PR
 
 ```
-Go to the GitHub page for the project. You should see a new button showing that 
-you've recently updated a branch and prompting you to *initiate a pull request*. 
-(You can also copy the "new pull request" address from git's message when you push.)
+Now go to the GitHub page for the project. You should see a new button 
+showing that you've recently updated a branch and prompting you to 
+*initiate a pull request*. 
+(You can also copy the "new pull request" address from git's message 
+when you push.)
 
 Click on the PR button and fill in the form. 
 Filling in a useful title and message here is very important!
