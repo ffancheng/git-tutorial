@@ -124,7 +124,7 @@ $ pwd
 /Users/bob/projects/pycalc
 $ cd ..
 $ rm -rf pycalc
-$ git clone git@github.com:alice/pycalc
+$ git clone git@github.com:[Bob's username]/pycalc
 $ cd pycalc
 $ git switch --create decimals
 ```

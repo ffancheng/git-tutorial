@@ -125,8 +125,8 @@ You need to keep the window on which you launched the ssh-agent open.
 ## Setup ssh-key
 
 Now our git configuration is completed and we ready to work with git and github. However, each time we make push (upload) 
-files on github, we will have to enter git account password. As we will be uploadng document frequently,
-it is better set up **ssh-key** to avoide authentication every time we make push. Please follow the instruction
+files on github, we will have to enter git account password. As we will be uploading document frequently,
+it is better set up **ssh-key** to avoid authentication every time we make push. Please follow the instructions
 [here](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) 
 to create ssh-key and adding it the github account.
 
